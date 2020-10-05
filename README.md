@@ -110,7 +110,7 @@ Below are some experimental result:
 For Image classification neural newtork has been trained to detect deforestation through oil palm plantation growth. For this task dataset from [WiDS Datathon 2019](https://www.kaggle.com/c/widsdatathon2019/overview) was used. The size of final model is similar to object detection (about 0.8MB).
 Below are results from raw camera data:
 
-![](https://raw.githubusercontent.com/grupacosmo/AI_for_space/blob/main/assets_for_readme/class.gif)
+![](assets_for_readme/class.gif)
 
 ### Noise reduction
 Coming soon...
