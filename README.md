@@ -1,4 +1,4 @@
-<div style="text-align:center"><img src=https://raw.githubusercontent.com/Pixedar/Python_proj/master/assets/AI_Layers_ENG.png?token=ABSX2T7PQCAHMOCG2PVYLVC7QS66E /></div>
+<div style="text-align:center"><img src=https://raw.githubusercontent.com/grupacosmo/AI_for_space/main/assets_for_readme/AI_Layers_ENG.png /></div>
 
 # AI for space
 Implementation of artificial intelligence image processing on Sipeed Maix development board and dataset generator intended for use in space applications.
@@ -47,7 +47,7 @@ Implementation of artificial intelligence image processing on Sipeed Maix develo
 
 | Image rendered by dataset generator: [A] | Image A captured by camera | Image A modified by dataset calibrator |
 | ------------- |:-------------:| -----:|
-|![](https://raw.githubusercontent.com/Pixedar/Python_proj/master/assets/0012.jpg?token=ABSX2T3EKSSK6J7V22MJFNS7QS6GC)|![](https://raw.githubusercontent.com/Pixedar/Python_proj/master/assets/0012org.jpg?token=ABSX2T2LRA6EESYV64ICADS7QS6MA)|![](https://raw.githubusercontent.com/Pixedar/Python_proj/master/assets/0012popr.jpg?token=ABSX2T4XEQKX4P2DJOIEPYS7QS6NK)|
+|![](https://raw.githubusercontent.com/grupacosmo/AI_for_space/main/assets_for_readme/0012.jpg)|![](https://raw.githubusercontent.com/grupacosmo/AI_for_space/main/assets_for_readme/0012org.jpg)|![](https://raw.githubusercontent.com/grupacosmo/AI_for_space/main/assets_for_readme/0012popr.jpg)|
 ### Object detection and tracking
 Neural newtork has been trained on generated datased using keras-based framework [aXeleRate](https://github.com/AIWintermuteAI/aXeleRate).  Thanks to MobileNet5_0 NN architecture the size of final model is just 0.8MB.
 
@@ -100,11 +100,11 @@ Below are some experimental result:
 
 | Cubesat detection in orbit |
 | ------------- | 
-|![](https://raw.githubusercontent.com/Pixedar/Python_proj/master/assets/animated.gif?token=ABSX2T53AGY4XWDANGSFMQC7QS7GU) |
+|![](https://raw.githubusercontent.com/grupacosmo/AI_for_space/main/assets_for_readme/animated.gif) |
 
 | Setup (camera pointing at monitor)| Cubesat detection from camera|
 | ------------- | ------------- |
-|<div style="text-align:center"><img src="https://raw.githubusercontent.com/Pixedar/Python_proj/master/assets/setup_ai.jpg?token=ABSX2TZLTJMVQFBBYAJOIUC7QS76G" width="240" height="240"></div> |<div style="text-align:center"><img src="https://raw.githubusercontent.com/Pixedar/Python_proj/master/assets/raw_a.gif?token=ABSX2TY5EEYVDMOC7CYFQR27QTAB4" /> |
+|<div style="text-align:center"><img src="https://raw.githubusercontent.com/grupacosmo/AI_for_space/main/assets_for_readme/setup_ai.jpg" width="240" height="240"></div> |<div style="text-align:center"><img src="https://raw.githubusercontent.com/grupacosmo/AI_for_space/main/assets_for_readme/raw_a.gif" /> |
 
 ### Image classification
 For Image classification neural newtork has been trained to detect deforestation through oil palm plantation growth. For this task dataset from [WiDS Datathon 2019](https://www.kaggle.com/c/widsdatathon2019/overview) was used. The size of final model is similar to object detection (about 0.8MB).
