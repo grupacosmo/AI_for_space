@@ -1,0 +1,12 @@
+[submodule "Dataset_generator_for_blender"]
+	path = Dataset_generator_for_blender
+	url = https://github.com/grupacosmo/Dataset_generator_for_blender.git
+[submodule "Dataset_calibrator"]
+	path = Dataset_calibrator
+	url = https://github.com/grupacosmo/Dataset_calibrator.git
+[submodule "AI_MCU"]
+	path = AI_MCU
+	url = https://github.com/grupacosmo/AI_MCU.git
+[submodule "commit"]
+	path = commit
+	url = https://github.com/grupacosmo/AI_MCU.git
