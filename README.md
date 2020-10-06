@@ -7,7 +7,7 @@ Implementation of artificial intelligence image processing on Sipeed Maix develo
 
 <details><summary><b>Show Exmaple image</b></summary>
 	
-<div style="text-align:center"><img src=https://drive.google.com/uc?id=1eM-nqmNBr69SQu6ntxc427t7TKHYRyhM /></div>
+![](https://raw.githubusercontent.com/grupacosmo/AI_for_space/main/assets_for_readme/0131.jpg)
 </details>
 <details><summary><b>Show corresponding xml annotation file</b></summary>
 <pre>
@@ -54,7 +54,7 @@ Neural newtork has been trained on generated datased using keras-based framework
 <details><summary><b>Show aXeleRate  config file</b></summary>
 <pre>
 
-```json
+```python
 config = {
         "model":{
             "type":                 "Detector",
