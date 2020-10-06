@@ -120,7 +120,7 @@ Below are results from raw camera data:
 Coming soon...
 ### UART MCU comunication
 MaixPy board can communicate with external module (e.g. satelite obc) through UART interface. To increase data transfer security error detection algorithm is impelemented on top of UART interface.
-<details><summary><b>Show shmeatic</b></summary>
+<details><summary><b>Show schematic</b></summary>
 	
 ![](https://raw.githubusercontent.com/grupacosmo/AI_for_space/main/assets_for_readme/shematic.PNG)
 
