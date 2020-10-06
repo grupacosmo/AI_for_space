@@ -2,6 +2,10 @@
 
 # AI for space
 Implementation of artificial intelligence image processing on Sipeed Maix development board and dataset generator intended for use in space applications.
+### Hardware
+- Sipeed Maix Go development board
+- Maixduino
+- Arduino Pro Mini (for sending commands to Sipeed)
 ### Generate training dataset
 [Dataset generator for blender](https://github.com/grupacosmo/Dataset_generator_for_blender/tree/8fa3f61c1433aa02e49f6e498e27bd4cc942f127) allows you to generate images with corresponding annotation files for object detection training. In addition to dataset generator python script cubesat and Earth 3d model used in example is available [here](https://drive.google.com/file/d/1Qk3qYjgNaC1pGa7IhwhDjou38zbyEGih/view?usp=sharing)
 
@@ -116,6 +120,11 @@ Below are results from raw camera data:
 Coming soon...
 ### UART MCU comunication
 MaixPy board can communicate with external module (e.g. satelite obc) through UART interface. To increase data transfer security error detection algorithm is impelemented on top of UART interface.
+<details><summary><b>Show shmeatic</b></summary>
+	
+![](https://raw.githubusercontent.com/grupacosmo/AI_for_space/main/assets_for_readme/shematic.PNG)
+
+</details>
 
 ![](https://raw.githubusercontent.com/grupacosmo/AI_for_space/main/assets_for_readme/reqest.gif)
 
