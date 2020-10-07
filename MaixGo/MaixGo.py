@@ -245,7 +245,6 @@ task = init_yolo_from_mem(0x300000,output,sensitivity)
 #labels = ['DETECTED: ','NOT DETECTED: ']
 #global_task = init_mobile_net_from_sd(name,output,labels)
 
-model_type =3
 while(True):
     frame = sensor.snapshot()
     frame.pix_to_ai()
@@ -273,11 +272,9 @@ while(True):
                 frame.draw_cross((round(r[0]+r[2]*0.5),round(r[1]+r[3]*0.5)),color=(255,0,0))
                 print(i)
     elif model_type is ModelTypes.EDGE:
-        #pass
         frame.conv3((-1,-1,-1,-1,8,-1,-1,-1,-1))
     elif model_type is ModelTypes.SHARP:
-        pass
-        #frame.conv3((-1,-1,-1,-1,9,-1,-1,-1,-1))
+        frame.conv3((-1,-1,-1,-1,9,-1,-1,-1,-1))
 
 
 a = kpu.deinit(global_task)
