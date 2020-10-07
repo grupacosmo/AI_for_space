@@ -142,7 +142,7 @@ List of supported commands:
 - reset module (0x6C)
 
 ### Edge detection
-Sipeed Maix development board can also perform edge detection using only one of convolution layer: conv3() library function.
+Sipeed Maix development board can also perform edge detection using convolution layer: conv3() library function.
 | Orginal picture from dataset | Edge detection image |
 | ------------- |:-------------:|
 |![](https://raw.githubusercontent.com/grupacosmo/AI_for_space/main/assets_for_readme/testimg.jpg)|![](https://raw.githubusercontent.com/grupacosmo/AI_for_space/main/assets_for_readme/edge_detect.jpg)|
