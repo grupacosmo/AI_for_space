@@ -119,7 +119,7 @@ Below are results from raw camera data:
 ### Noise reduction
 Coming soon...
 ### UART MCU comunication
-MaixPy board can communicate with external module (e.g. satelite obc) through UART interface. To increase data transfer security error detection algorithm is impelemented on top of UART interface.
+MaixPy board can communicate with external module (e.g. satelite obc) through UART interface. To increase data transfer security, error detection algorithm is impelemented on top of UART interface.
 <details><summary><b>Show schematic</b></summary>
 	
 ![](https://raw.githubusercontent.com/grupacosmo/AI_for_space/main/assets_for_readme/shematic.PNG)
@@ -141,4 +141,8 @@ List of supported commands:
 - change module power consumption to high (0x6F)
 - reset module (0x6C)
 
-
+### Edge detection
+Sipeed Maix development board can also perform edge detection using only one of convolution layer: conv3() library function.
+| Orginal picture from dataset | Edge detection image |
+| ------------- |:-------------:|
+|![](https://raw.githubusercontent.com/grupacosmo/AI_for_space/main/assets_for_readme/testimg.jpg)|![](https://raw.githubusercontent.com/grupacosmo/AI_for_space/main/assets_for_readme/edge_detect.jpg)|
