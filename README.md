@@ -111,7 +111,7 @@ Below are some experimental result:
 |<div style="text-align:center"><img src="https://raw.githubusercontent.com/grupacosmo/AI_for_space/main/assets_for_readme/setup_ai.jpg" width="240" height="240"></div> |<div style="text-align:center"><img src="https://raw.githubusercontent.com/grupacosmo/AI_for_space/main/assets_for_readme/raw_a.gif" /> |
 
 ### Image classification
-For Image classification neural newtork has been trained to detect deforestation through oil palm plantation growth. For this task dataset from [WiDS Datathon 2019](https://www.kaggle.com/c/widsdatathon2019/overview) was used. The size of final model is similar to object detection (about 0.8MB).
+For Image classification neural newtork has been trained to detect <b>deforestation through oil palm plantation growth</b>. For this task dataset from [WiDS Datathon 2019](https://www.kaggle.com/c/widsdatathon2019/overview) was used. The size of final model is similar to object detection (about 0.8MB).
 Below are results from raw camera data:
 
 ![](assets_for_readme/class.gif)
